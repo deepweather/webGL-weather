@@ -71,7 +71,7 @@ $(document).ready(function() {
 	leafletMap.addLayer(tiles);
 	
 	//Important line to make sure the tiles (more specifically the continental labels) show up on top of the grids.
-	$('.leaflet-tile-pane').css('z-index',10);
+	$('.leaflet-tile-pane').css('z-index',2);
 	
 	var legControl = new controlContainer({
 		hasClickFunc: false,
